@@ -1,4 +1,27 @@
+<<<<<<< HEAD
 .env
 *.env
 storage/*.json
 *.pem
+=======
+# Environment files
+.env
+.env.local
+.env.*.backup
+
+# Vendor & node_modules
+/vendor
+/node_modules
+
+# Storage logs & cache
+/storage/*.key
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# Other secret files (if any)
+*.pem
+*.key
+
+>>>>>>> 5f106df (initial)
